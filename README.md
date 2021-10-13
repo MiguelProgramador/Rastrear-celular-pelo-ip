@@ -16,7 +16,7 @@ git clone https://github.com/MiguelProgramador/Rastrear-celular-pelo-ip
 
 ls
 
-cd Puxar-Ip
+cd Rastrear-celular-pelo-ip
 
 ls
 
