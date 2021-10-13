@@ -21,8 +21,8 @@ clear = '\033[0m'
 bold = '\033[1;01m'
 cyan = '\033[1;96m'
 
-2#baner do script
-2print (red+"""
+#baner do script
+print (red+"bold""
 █▀▀█ █▀▀█ █▀▀ ▀▀█▀▀ █▀▀█ █▀▀ █▀▀█ █▀▀█       ░▀░ ░ █▀▀█
 █▄▄▀ █▄▄█ ▀▀█ ░░█░░ █▄▄▀ █▀▀ █▄▄█ █▄▄▀       ▀█▀ ▄ █░░█
 ▀░▀▀ ▀░░▀ ▀▀▀ ░░▀░░ ▀░▀▀ ▀▀▀ ▀░░▀ ▀░▀▀       ▀▀▀ █ █▀▀▀
@@ -40,7 +40,8 @@ try:
         b = cyan+bold+"[$]"
         print (a, "[I.P]:", data['query'])
         print(red+"<--------------->"+red)
-        print (b, "[Chip]:", data['isp'])         print(red+"<--------------->"+red)
+        print (b, "[Chip]:", data['isp'])         
+        print(red+"<--------------->"+red)
         print (a, "[Chip]:", data['org'])
         print(red+"<--------------->"+red)
         print (b, "[Cidade]:", data['city'])
