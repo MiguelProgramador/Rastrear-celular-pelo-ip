@@ -28,11 +28,11 @@ print (red+"""
 ▀░▀▀ ▀░░▀ ▀▀▀ ░░▀░░ ▀░▀▀ ▀▀▀ ▀░░▀ ▀░▀▀       ▀▀▀ █ █▀▀▀
                                                                   v1
 """+red)
-31 print (cyan+bold+"                 <===[[ By: Miguel ]]===> \
-32
-33 ip = args.target
-34
-35 api = "http://ip-api.com/json/"
+print (cyan+bold+"                 <===[[ By: Miguel ]]===> \n"+clear)
+
+ip = args.target
+
+api = "http://ip-api.com/json/"
 
 try:
          data = requests.get(api+ip).json()
