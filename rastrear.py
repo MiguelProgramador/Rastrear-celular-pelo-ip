@@ -40,8 +40,6 @@ try:
         b = cyan+bold+"[$]"
         print (a, "[I.P]:", data['query'])
         print(red+"<--------------->"+red)
-        print (a, "[Cidade]:", data['city'])
-        print(red+"<--------------->"+red)
         print (a, "[Estado]:", data['region'])
         print(red+"<--------------->"+red)
         print (a, "[Longitude]:", data['lon'])
