@@ -40,8 +40,6 @@ try:
         b = cyan+bold+"[$]"
         print (a, "[I.P]:", data['query'])
         print(red+"<--------------->"+red)
-        print (b, "[Chip]:", data['org'])         
-        print(red+"<--------------->"+red)
         print (a, "[Chip]:", data['org'])
         print(red+"<--------------->"+red)
         print (b, "[Cidade]:", data['city'])
